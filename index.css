@@ -1,0 +1,266 @@
+.FakeClass {
+  color: #9fe8df;
+  color: #f3f8fb;
+  color: #c5e4e7;
+  color: #17494f;
+  color: #28c1ad;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #c5e4e7;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-top: 10%;
+}
+
+.page-title {
+  color: #17494f;
+  margin: 0;
+}
+
+.main-component-div {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  heigth: 150%;
+  width: 60%;
+  padding: 10px;
+  justify-content: space-around;
+  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.left-component-div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 40%;
+  justify-content: space-around;
+}
+
+.bill-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.people-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bill-zero {
+  display: none;
+  margin: 0;
+  color: red;
+}
+
+.people-zero {
+  display: none;
+  margin: 0;
+  color: red;
+}
+
+.right-component-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00464b;
+  border-radius: 15px;
+  width: 40%;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.amount-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.select-tip-title {
+  margin: 0;
+}
+
+.tip-amounts {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.tip-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.tip-amount {
+  border-radius: 5px;
+  background-color: #00464b;
+  color: white;
+  text-align: center;
+  width: 20%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.tip-amount10 {
+  border-radius: 5px;
+  background-color: #00464b;
+  color: white;
+  text-align: center;
+  width: 20%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.tip-amount15 {
+  border-radius: 5px;
+  background-color: #00464b;
+  color: white;
+  text-align: center;
+  width: 20%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.tip-amount20 {
+  border-radius: 5px;
+  background-color: #00464b;
+  color: white;
+  text-align: center;
+  width: 20%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.tip-amount25 {
+  border-radius: 5px;
+  background-color: #00464b;
+  color: white;
+  text-align: center;
+  width: 20%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.tip-amount50 {
+  border-radius: 5px;
+  background-color: #00464b;
+  color: white;
+  text-align: center;
+  width: 20%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.tip-amount-text {
+  color: white;
+}
+
+.total-amount-text {
+  color: white;
+}
+
+.custom-input {
+  width: 100%;
+  font-weight: 700;
+  outline: none;
+}
+
+.page-footer {
+  color: white;
+}
+
+.bill-title {
+  margin: 0;
+}
+
+.input-bill-amount {
+  margin-bottom: 20px;
+}
+
+.num-of-people {
+  margin-bottom: 20px;
+}
+
+.tip-amount-title {
+  color: #28c1ad;
+}
+
+.total-bill-amount {
+  color: #28c1ad;
+}
+
+.person-p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.top-right-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.reset-button {
+  width: 90%;
+  background-color: #28c1ad;
+  color: #00464b;
+  border: none;
+  height: 30px;
+  font-weight: 700;
+}
+
+.custom-input {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .main-component-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+
+  .left-component-div {
+    width: 90%;
+  }
+
+  .right-component-div {
+    width: 90%;
+  }
+}

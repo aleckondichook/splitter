@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Splitter</title>
+</head>
+<body>  
+  <div class="page-container">
+    <h1 class="page-title">SPLI</h1>
+    <h1 class="page-title">TER</h1>
+    <div class="main-component-div">
+      <div class="left-component-div">
+        <div class="bill-div">
+          <h3 class="bill-title">Bill</h3>
+          <h4 class="bill-zero">Can't Be Zero</h4>
+        </div>
+        <input class="input-bill-amount" type="number">
+        <h3 class="select-tip-title">Select Tip %</h3>
+        <div class="tip-amounts">
+          <div class="tip-row">
+            <div class="tip-amount10">10%</div>
+            <div class="tip-amount15">15%</div>
+            <div class="tip-amount20">20%</div>
+          </div>
+          <div class="tip-row">
+            <div class="tip-amount25">25%</div>
+            <div class="tip-amount50">50%</div>
+            <div class="tip-amount">
+              <input class="custom-input" type="number" placeholder="Custom">
+            </div>
+          </div>
+        </div>
+        <div class="people-div">
+          <h3 class="bill-title">Number of People</h3>
+          <h4 class="people-zero">Can't Be Zero</h4>
+        </div>
+        <input class="num-of-people" type="number">
+      </div>
+      <div class="right-component-div">
+        <div class="top-right-div">
+          <div class="amount-div">
+            <div class="tip-amount-text">
+              <h3 class="person-p">Tip Amount</h3>
+              <p class="person-p">/ Person</p>
+            </div>
+            <h2 class="tip-amount-title">$0.00</h2>
+          </div>
+          <div class="amount-div">
+            <div class="total-amount-text">
+              <h3 class="person-p">Total</h3>
+              <p class="person-p">/ Person</p>
+            </div>
+            <h2 class="total-bill-amount">$0.00</h2>
+          </div>
+        </div>
+        <button class="reset-button">RESET</button>
+      </div>
+    </div>
+    <h1 class="page-footer">@ KCC</h1>
+  </div>
+
+
+  <script src="index.js" defer></script>
+</body>
+</html>
